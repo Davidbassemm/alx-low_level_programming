@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h"
 
 /**
  * string_toupper - change all lowercase to uppercase
@@ -13,7 +13,7 @@ char *string_toupper(char *n)
     while (n[i] != '\0')
     {
         if (n[i] >= 'a' && n[i] <= 'z')
-            n[i] = n[i] - 32;
+            n[i] = n[i] - ('a' - 'A');
         i++;
     }
 
